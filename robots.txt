@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://geelong-afl-masters-website.vercel.app/sitemap.xml

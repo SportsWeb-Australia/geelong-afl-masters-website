@@ -1,0 +1,12 @@
+{
+  "name": "Geelong AFL Masters Football Club",
+  "short_name": "Geelong Masters",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#03285E",
+  "theme_color": "#03285E",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
