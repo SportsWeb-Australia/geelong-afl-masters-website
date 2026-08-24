@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /geelong-afl-masters-finals-media-day.html
 
 Sitemap: https://geelong-afl-masters-website.vercel.app/sitemap.xml
