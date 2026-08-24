@@ -23,6 +23,13 @@ body.md-body{background:var(--pro-bg);color:var(--pro-text)}
 .md-hd .csm{font-family:var(--body);font-weight:700;font-size:13.5px;color:var(--pro-muted)}
 .md-hd .tag{margin-left:auto;font-family:var(--body);font-weight:700;text-transform:uppercase;letter-spacing:.10em;font-size:10.5px;color:var(--gold);border:1px solid rgba(217,164,65,.4);border-radius:4px;padding:6px 10px;white-space:nowrap}
 
+/* crest-based backgrounds — used instead of player photography where none is available/appropriate */
+.md-hero .bg.bg-crest,.md-final .bg.bg-crest{background:radial-gradient(circle at 25% 20%,rgba(3,40,94,.9),transparent 60%),linear-gradient(160deg,#0a1330 0%,#05070d 75%)}
+.md-hero .bg.bg-crest::after,.md-final .bg.bg-crest::after{content:none}
+.md-hero .bg.bg-crest img,.md-final .bg.bg-crest img{position:absolute;right:-40px;top:50%;transform:translateY(-50%);width:56%;max-width:480px;height:auto;object-fit:contain;opacity:.14;filter:none}
+.md-crest-bg{position:relative;background:radial-gradient(circle at 30% 25%,rgba(3,40,94,.9),transparent 65%),linear-gradient(160deg,#0a1330,#05070d)}
+.md-crest-bg img{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:34%;max-width:120px;height:auto;object-fit:contain;opacity:.5;filter:none}
+
 /* hero */
 .md-hero{position:relative;overflow:hidden;min-height:min(92vh,880px);display:flex;align-items:center;color:#fff}
 .md-hero .bg{position:absolute;inset:0;z-index:0}
